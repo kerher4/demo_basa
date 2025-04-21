@@ -1,0 +1,27 @@
+logging.level.liquibase: DEBUG
+logging.level.org.h2: DEBUG
+spring:
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+  jackson:
+    serialization:
+      indent-output: true
+    default-property-inclusion: non_null
+  datasource:
+    url: jdbc:h2:mem:test_db
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  sql:
+    init:
+      mode: always
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+logging:
+  level:
+    org.springframework.security: debug

@@ -1,0 +1,33 @@
+-- liquibase formatted sql
+
+-- changeset kerher:2 splitStatements:true endDelimiter:;
+INSERT INTO users (username, role, password) VALUES ('alice', 'USER', '{noop}alice123');
+INSERT INTO users (username, role, password) VALUES ('bob', 'USER', '{noop}bob456');
+INSERT INTO users (username, role, password) VALUES ('charlie', 'USER', '{noop}charlie789');
+INSERT INTO users (username, role, password) VALUES ('diana', 'USER', '{noop}diana101');
+INSERT INTO users (username, role, password) VALUES ('edward', 'USER', '{noop}edward202');
+INSERT INTO users (username, role, password) VALUES ('frank', 'USER', '{noop}frank303');
+INSERT INTO users (username, role, password) VALUES ('grace', 'USER', '{noop}grace404');
+INSERT INTO users (username, role, password) VALUES ('hannah', 'USER', '{noop}hannah505');
+INSERT INTO users (username, role, password) VALUES ('ian', 'USER', '{noop}ian606');
+INSERT INTO users (username, role, password) VALUES ('julia', 'USER', '{noop}julia707');
+INSERT INTO users (username, role, password) VALUES ('kevin', 'USER', '{noop}kevin808');
+INSERT INTO users (username, role, password) VALUES ('laura', 'USER', '{noop}laura909');
+INSERT INTO users (username, role, password) VALUES ('michael', 'USER', '{noop}michael111');
+INSERT INTO users (username, role, password) VALUES ('nancy', 'USER', '{noop}nancy222');
+INSERT INTO users (username, role, password) VALUES ('oliver', 'USER', '{noop}oliver333');
+INSERT INTO users (username, role, password) VALUES ('peter', 'USER', '{noop}peter444');
+INSERT INTO users (username, role, password) VALUES ('quincy', 'USER', '{noop}quincy555');
+INSERT INTO users (username, role, password) VALUES ('rachel', 'USER', '{noop}rachel666');
+INSERT INTO users (username, role, password) VALUES ('steve', 'USER', '{noop}steve777');
+INSERT INTO users (username, role, password) VALUES ('tina', 'USER', '{noop}tina888');
+INSERT INTO users (username, role, password) VALUES ('ursula', 'USER', '{noop}ursula999');
+INSERT INTO users (username, role, password) VALUES ('victor', 'USER', '{noop}victor123');
+INSERT INTO users (username, role, password) VALUES ('wendy', 'USER', '{noop}wendy456');
+INSERT INTO users (username, role, password) VALUES ('xavier', 'USER', '{noop}xavier789');
+INSERT INTO users (username, role, password) VALUES ('yvonne', 'USER', '{noop}yvonne101');
+INSERT INTO users (username, role, password) VALUES ('zach', 'USER', '{noop}zach202');
+INSERT INTO users (username, role, password) VALUES ('anna', 'USER', '{noop}anna303');
+INSERT INTO users (username, role, password) VALUES ('brian', 'USER', '{noop}brian404');
+INSERT INTO users (username, role, password) VALUES ('claire', 'USER', '{noop}claire505');
+INSERT INTO users (username, role, password) VALUES ('david', 'USER', '{noop}david606');
